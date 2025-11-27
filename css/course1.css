@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Be Vietnam Pro;
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: url('../fonts/BeVietnamPro-Light.ttf') format('truetype');
+  font-weight: 400; /* Light */
+  font-style: normal;
+}
+
+
+.content-sec .content{
+     width:100% !important;
+    height: 551px !important;
+    border-radius: 10px;
+    padding: 20px;
+    opacity: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    margin-top: 40px;
+    background-color: white;
+    padding: 40px;
+    padding-right: 25px;
+   
+}
+
+.content-sec .content h1{
+
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 60px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #262626;
+
+}
+
+.content-sec .content h3{
+font-weight: 600;
+font-style: SemiBold;
+font-size: 20px;
+letter-spacing: -0.6px;
+color: #333333;
+margin-top: 25px;
+
+}
+
+.content-sec .content .card-body {
+    margin-top: 25px;
+    padding: 0px;
+}
+
+.content-sec .content .card-body .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+    border-radius: 6px;
+    gap: 6px;
+    border: 1px solid #F1F1F3;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    transition: 0.5s;
+
+}
+.content-sec .content .card-body .card:hover{
+    border: 1px solid #FFD599;
+    box-shadow: 0px 0px 0px 4px #FFF4E5;
+    cursor: pointer;
+
+}
+.content-sec .content .card-body .card .card-left p{
+    width: 300px;
+    font-family: Be Vietnam Pro;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+color: #333333;
+
+    
+}
+
+.content-sec .content .card-body .card .card-left h4{
+  margin-top: -15px;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0px;
+
+}
+
+.content-sec .content .card-body .card .card-right{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    border: none;
+    background-color: #F7F7F8;
+    color: #59595A;
+    height: 40px;
+    border-radius: 6px;
+    padding: 10px;
+    font-size: 14px;
+    transition: 0.5s;
+}
+.content-sec .content .card-body .card .card-right i{
+    font-size: 20px;
+    font-weight: 100;
+}
+.content-sec .content .card-body .card .card-right:hover,
+.content-sec .content .card-body .card .card-right:focus{
+    background-color: #FFD599;
+    color: #4C4C4D;
+}
+
+
+
+@media (min-width:320px) and (max-width:767px){
+    .content-sec .content .card-body .card{
+    flex-direction: column;
+        align-items: flex-start;
+}
+.content-sec .content{
+     width:100% !important;
+    height: 700px !important;
+    
+   
+}
+}
+
+@media (min-width:768px) and (max-width:1200px){
+     .content-sec .content .card-body .card{
+    flex-direction: column;
+        align-items: flex-start;
+}
+.content-sec .content{
+     width:100% !important;
+    height: 700px !important;
+    
+   
+}
+}
+
+
+
+

@@ -1,0 +1,496 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Be Vietnam Pro;
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: url('../fonts/BeVietnamPro-Light.ttf') format('truetype');
+  font-weight: 400; /* Light */
+  font-style: normal;
+}
+
+
+.sec-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: 70px;
+    margin-top: 60px;
+}
+.sec-cards .content-up h1{
+ color: #333333;
+font-weight: 600;
+font-style: Medium;
+font-size: 30px;
+line-height: 150%;
+letter-spacing: 0px;
+
+
+}
+.sec-cards .content-up p{
+ color: #59595A;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+
+}
+.sec-cards .content-down{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 10px;
+
+}
+.sec-cards .content-down .card{
+    display: flex;
+    flex-direction: column;
+    width: 570px;
+    height: 272px;
+    opacity: 1;
+    border-radius: 10px;
+    padding: 40px;
+    margin-right: 20px;
+     margin-bottom: 20px;
+    background-color: white;
+    transition: 0.5s;
+}
+.sec-cards .content-down .card:hover{
+    cursor: pointer;
+    box-shadow: 0.5px 0px 5px 2px #FF9500;
+}
+.sec-cards .content-down .card .vector{
+    width: 56px;
+height: 56px;
+background-color:#FFF9F0;
+opacity: 1;
+border-radius: 6px;
+border: 1px solid #FFEACC;
+padding: 14px;
+gap: 10px;
+transition: 0.5s;
+
+}
+/*vector size*/
+.sec-cards .content-down .card .vector .vector1{
+ width: 28px;
+ height: 23px;
+ margin-left: -1px;
+}
+.sec-cards .content-down .card .vector .vector2{
+ width: 22.3094425201416px;
+height: 26.4375px;
+margin-left: 3px;
+margin-top: 1px;
+
+
+}
+.sec-cards .content-down .card .vector .vector3{
+ width: 27.17646598815918px;
+height: 18.44389533996582px;
+
+}
+.sec-cards .content-down .card .vector .vector4{
+width: 19.171899795532227px;
+height: 23.296918869018555px;
+margin-left: 4px;
+
+}
+.sec-cards .content-down .card .vector .vector5{
+width: 18.000049591064453px;
+height: 27.855928421020508px;
+margin-top: -3px;
+margin-left: 4px;
+
+
+
+}
+.sec-cards .content-down .card .vector .vector6{
+width: 19.710899353027344px;
+height: 25.113300323486328px;
+margin-left: 3px;
+
+
+
+}
+.sec-cards .content-down .card .vector .vector7{
+width: 28px;
+height: 18.960580825805664px;
+
+
+margin-left: -1px;
+
+
+}
+.sec-cards .content-down .card .vector .vector8{
+width: 27.738298416137695px;
+height: 23.706998825073242px;
+margin-top: -4px;
+
+}
+/*---------*/
+.sec-cards .content-down .card .vector:hover{
+    background-color: #59595A;
+}
+.sec-cards .content-down .card h1{
+color: #262626;
+font-weight: bold;
+font-style: Medium;
+font-size: 20px;
+line-height: 150%;
+letter-spacing: 0px;
+margin-top: 20px;
+
+}
+.sec-cards .content-down .card  p{
+color: #59595A;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+
+/*sec-final*/
+.sec-final .img-dark{
+    display: none;
+}
+.sec-final{
+    position: relative;
+    display: flex;
+    gap: 300px;
+    flex-direction: row;
+    width: 87%;
+    
+background-color: white;
+border-radius: 10px;
+padding: 60px;
+ margin-left: 70px;
+    margin-top: 60px;
+    z-index: 1;
+
+}
+.sec-final .content{
+  
+
+opacity: 1;
+gap: 14px;
+z-index: 3;
+
+}
+.sec-final .content h1{
+color: #262626;
+font-weight: bold;
+font-style: SemiBold;
+font-size: 38px;
+line-height: 120%;
+letter-spacing: 0px;
+
+}
+.sec-final .content span{
+    color: #FF9500;
+font-weight: bold;
+font-style: SemiBold;
+font-size: 38px;
+line-height: 120%;
+letter-spacing: 0px;
+
+}
+.sec-final .content p{
+    color: #4C4C4D;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+margin-bottom: 20px;
+}
+/*final-sec-----right-sec*/
+.sec-final .right-sec{
+    display: flex;
+    flex-direction: row;
+    
+}
+.sec-final .right-sec img{
+   
+    width: 400px;
+    height: 300px;
+   
+    margin-left: 120px;
+    left: 46.36px;
+position: absolute;
+left: 45%;
+right: 8.33%;
+top: 0%;
+bottom: 8.33%;
+z-index: 2;
+}
+.sec-final .right-sec button{
+width: 103px;
+height: 49px;
+border: none;
+opacity: 1;
+border-radius: 6px;
+gap: 8px;
+padding-top: 14px;
+padding-right: 20px;
+padding-bottom: 14px;
+padding-left: 20px;
+font-size: 14px;
+background-color: #FF9500;
+color: white;
+margin-top: 40px;
+margin-right: -20px;/*margin-right: -45px;*/
+transition: 0.5s;
+}
+
+
+.sec-final .right-sec button:hover{
+    background-color: white;
+    color: #FF9500;
+    font-weight: bold;
+    border: 1px solid #FF9500;
+}
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width:436px){
+     .sec-cards .content-down .card{
+      
+       padding: 5px;
+       
+    }
+    .sec-cards .content-down .card h1{
+        font-size: 18px;
+    }
+    .sec-cards .content-down .card  p{
+        font-size: 14px;
+    }
+}
+@media (min-width:437px) and (max-width:556px){
+    .sec-cards .content-down .card{
+      
+       padding: 18px;
+       
+    }
+}
+
+@media (min-width:557px) and (max-width:640px){
+    .sec-cards .content-down .card{
+      
+        padding: 25px;
+       
+    }
+}
+@media (min-width:320px) and (max-width:992px){
+
+
+.sec-cards .content-down .card .vector .vector3{
+    margin-left: 0px;
+
+}
+.sec-cards .content-down .card .vector .vector8{
+    margin-left: 0px;
+
+}
+.sec-cards .content-down .card h1{
+        font-size: 18px;
+    }
+    .sec-cards .content-down .card  p{
+        font-size: 14px;
+    }
+
+
+}
+
+@media (min-width:320px) and (max-width:1322px){
+    .sec-cards .content-down{
+    align-items: center;
+    justify-content: center;
+
+}
+ .sec-cards .content-down .card{
+    margin-right: 0px;
+    
+ }
+}
+/*final-section*/
+@media (min-width:320px) and (max-width:767px){
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-final{
+    padding: 30px;
+    margin-left: -10px;
+
+    height: 324px;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 80px;
+
+}
+
+.sec-final .content{
+    
+
+    opacity: 1;
+    gap: 14px;
+    z-index: 3;
+
+}
+.sec-final .content h1{
+
+font-size: 28px;
+
+}
+.sec-final .content span{
+font-size: 28px;
+
+}
+.sec-final .content p{
+font-size: 14px;
+}
+/*final-sec-----right-sec*/
+.sec-final .right-sec{
+    display: flex;
+    flex-direction: row;
+}
+.sec-final .right-sec img{
+    width: 250px;
+    height: 200px;
+   
+    margin-left: 0px;
+    
+left: 45%;
+right: 8.33%;
+top: 60%;
+bottom: 8.33%;
+}
+
+
+
+}
+@media (min-width:768px) and (max-width:1130px){
+.sec-final{
+    padding: 30px;
+    margin-left: -10px;
+
+    height: 324px;
+    flex-direction: column;
+    gap: 0px;
+    margin-bottom: 80px;
+
+}
+}
+@media (min-width:340px) and (max-width:380px){
+.sec-final .right-sec img{
+left: 50%;
+}
+}
+@media (min-width:381px) and (max-width:449px){
+.sec-final .right-sec img{
+left: 55%;
+}
+}
+@media (min-width:450px) and (max-width:461px){
+.sec-final .right-sec img{
+left: 60%;
+}
+}
+@media (min-width:462px) and (max-width:510px){
+.sec-final .right-sec img{
+left: 50%;
+}
+
+}
+@media (min-width:511px) and (max-width:570px){
+.sec-final .right-sec img{
+left: 55%;
+}
+
+}
+@media (min-width:571px) and (max-width:640px){
+.sec-final .right-sec img{
+left: 60%;
+}
+}
+@media (min-width:641px) and (max-width:734px){
+.sec-final .right-sec img{
+left: 65%;
+}
+}
+@media (min-width:735px) and (max-width:767px){
+.sec-final .right-sec img{
+left: 68%;
+}
+}
+
+@media (min-width:768px) and (max-width:1130px){
+
+.final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-final{
+    
+    flex-direction: column;
+   gap: 0px;
+
+}
+.sec-final .right-sec img{
+    top:25%;
+}
+}
+@media (min-width:768px) and (max-width:790px){
+
+.sec-final .right-sec img{
+left: 30%;
+}
+}
+@media (min-width:791px) and (max-width:849px){
+.sec-final .right-sec img{
+left: 35%;
+}
+}
+@media (min-width:850px) and (max-width:920px){
+.sec-final .right-sec img{
+left: 40%;
+}
+
+}
+@media (min-width:921px) and (max-width:1130px){
+.sec-final .right-sec img{
+left: 45%;
+}
+}
+@media (min-width:768px) and (max-width:1322px){
+.sec-cards .content-down .card{
+    width: 45%;
+
+    height: 300px;
+
+    padding: 20px;
+    margin-right: 20px;
+
+
+
+}
+}
+/*final-sec--------button*/
+@media (min-width:1131px) and (max-width:1190px){
+    .sec-final .right-sec button{
+        margin-right: -50px;
+    }
+}

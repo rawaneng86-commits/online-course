@@ -1,0 +1,87 @@
+.sec-7 .content-left{
+    margin-left: 440px;
+    margin-top: 0px;
+    width: 60%;
+    padding: 12px;
+
+}
+.sec-7 .active{
+        color: white;
+        background-color: #FF9500;
+    
+}
+.sec-7 #btn-yearly:hover,
+.sec-7 #btn-monthly:hover{
+    color: white;
+}
+.sec-7 .yearly{
+    display: none;
+}
+.sec-8{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+
+/*-----modal--------*/
+
+.modal-content { 
+    max-width: 400px; 
+    text-align: center; 
+}
+
+.modal h2 { 
+    margin-bottom: 10px; 
+}
+.modal p { 
+    margin-bottom: 20px; 
+}
+.modal form input { 
+    width: 90%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border-radius:5px; 
+    border:1px solid #ccc; 
+}
+.modal form button { 
+    background: #FF9500; 
+    color: #fff; 
+    padding: 10px 20px; 
+    border:none; 
+    border-radius:5px; 
+    cursor:pointer; 
+    margin-top: 10px;
+ }
+
+/*----------------pricing----------------*/
+@media (min-width:320px) and (max-width:767px){
+.sec-7 .content-left{
+    margin-left: 150px;
+    margin-top: 0px;
+    width: 40%;
+
+}
+}
+@media (min-width:768px) and (max-width:920px){
+.sec-7 .content-left{
+    margin-left: 240px;
+    margin-top: 0px;
+   
+
+}
+}
+@media (min-width:921px) and (max-width:1200px){
+.sec-7 .content-left{
+    margin-left: 300px;
+    margin-top: 0px;
+    
+
+}
+}
+@media (min-width:768px) and (max-width:991px){
+.sec-7 .content-left{
+     width: 70%;
+    
+
+}
+}

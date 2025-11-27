@@ -1,0 +1,26 @@
+.nav-sec .btn1 a{
+    color:#262626 !important;
+}
+.nav-sec .btn1:hover{
+    a{
+        color: white !important;
+        
+    }
+}
+
+/* Modal */
+.modal-content {
+    margin: 10% auto; 
+    width: 50%; 
+}
+.modal-content #modalTitle{
+    font-size: 25px;
+}
+.modal-content h2{
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
+
+

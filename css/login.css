@@ -1,0 +1,551 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Be Vietnam Pro;
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: url('../fonts/BeVietnamPro-Light.ttf') format('truetype');
+  font-weight: 400; /* Light */
+  font-style: normal;
+}
+body{
+  
+    font-family: Be Vietnam Pro;
+    background-color: /* #F1F1F3 */ #F7F7F8;
+    
+    
+}
+
+.nav-sec button a{
+    text-decoration: none;
+    background: none;
+    color: white;
+}
+
+.nav-sec .btn1 a{
+    color:#262626 !important;
+}
+.nav-sec .btn1:hover{
+    a{
+        color: white !important;
+        
+    }
+}
+.login-sec,
+.signUp-sec{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 30px;
+    margin-top: 80px;
+}
+.login-sec .perant,
+.signUp-sec .perant{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    width: 100%;
+
+}
+/*---------------child-1-----------*/
+.login-sec .child-1,
+.signUp-sec .child-1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+  margin-top: -200px;
+}
+
+ .child-1 .up{
+display: flex;
+flex-direction: column;
+
+}
+ .child-1 .up h1{
+color: #262626;
+font-weight: bold;
+font-style: Medium;
+font-size: 30px;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: left;
+
+}
+ .child-1 .up p{
+color: #59595A;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: left;
+}
+/*--------------child-1-down------------------*/
+ .child-1 .down{
+    flex: 1;
+    margin-top: 40px;
+
+}
+ .child-1 .content {
+    align-items: center;
+    justify-content: center;
+    width: 100% !important;
+    height: 250px;
+    margin-top: 0px;
+    background-color: white;
+    padding: 40px;
+    margin-right: 10px;
+    border: 1px solid #F1F1F3;
+   
+}
+ .child-1 .content .content-up{
+    
+    border-bottom: 0.5px solid rgba(77, 77, 80,0.1);
+}
+ .child-1 .content .content-up p{
+    width: 85%;
+    font-size: 16px;
+    letter-spacing: 0px;
+}
+ .child-1 .content .content-down {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    background-color: #FCFCFD;
+}
+
+ .child-1 .content .content-down .content-name {
+   display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+ .child-1 .content .content-down .content-name img{
+    width: 50px;
+    height: 50px;
+}
+ .child-1 .content .content-down .content-name h1{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+ .child-1 .content .content-down button{
+   width: 137px;
+   height: 49px;
+   border: 1px solid #F1F1F3;
+   border-radius: 6px;
+   background-color: #F7F7F8;
+   font-size: 14px;
+   transition: 0.5s;
+}
+ .child-1 .content .content-down button:hover{
+    transform: scale(1.1);
+    background-color: #FF9500;
+    color: white;
+}
+
+#prevSlide, #nextSlide {
+  margin: 0 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+/*---------------owl-carousel------------------------*/
+/* الأساسيات */
+.owl-nav {
+  position: absolute;
+  width: 100%;
+  top: 110%;  
+  right: 0%;         
+  
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;  
+  pointer-events: none;  /* حتى ما تمنع النقر على الكروت */
+}
+
+/* الأزرار نفسها */
+.owl-nav button {
+  pointer-events: auto;  /* حتى تشتغل الأزرار نفسها */
+  background-color: white !important;
+  border: 1px solid #F1F1F3 !important;
+ border-radius: 8px !important;
+  width: 45px;
+  height: 45px;
+  font-size: 18px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: 0.5s;
+}
+
+.owl-nav button:hover {
+  background-color: #FF9500 !important;
+  color: white !important;
+  border: none !important;
+  transform: scale(0.7);
+  i{
+    color: white !important;
+  }
+}
+
+
+
+/*-----------------child-2-----------------------*/
+.login-sec .child-2,
+.signUp-sec .child-2{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+
+gap: 20px;
+border-radius: 10px;
+padding: 40px;
+
+}
+/*up*/
+.child-2 .up{
+display: flex;
+flex-direction: column;
+text-align: center;
+gap: 10px;
+}
+
+.child-2 .up h1{
+color: #262626;
+font-weight: bold;
+font-style: SemiBold;
+font-size: 38px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.child-2 .up p{
+    
+color: #4C4C4D;
+font-weight:550;
+font-style: Regular;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0px;
+text-align: center;
+
+}
+.child-2 .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+.child-2 .content .input-group{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+.child-2 .content .input-group label{
+color: #262626;
+font-weight: 590;
+font-style: Medium;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+
+}
+.child-2 .content .input-group input{
+
+    width: 100%;
+height: 64px;
+border-radius: 8px !important;
+padding: 20px;
+border: 1px solid #F1F1F3;
+background-color: #FCFCFD;
+
+}
+
+.child-2 .content .forgot{
+    width: 100%;
+    text-align: right;
+color: #4C4C4D;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+text-decoration: none;
+
+
+}
+.child-2 .content  .forgot:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.child-2 .content .checkbox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #656567;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    word-spacing: 1px;
+    gap: 5px;
+
+}
+.child-2 .content .checkbox p{
+    margin-left: 10px;
+    margin-top: 4px;
+    color: #656567;
+}
+.child-2 .content .checkbox input{
+    width: 24px;
+height: 24px;
+opacity: 1;
+border:none;
+accent-color: #d6d6d6;
+margin-right: 10px;
+}
+.child-2 .content .checkbox input:hover {
+    cursor: pointer;
+    accent-color: #e2e2e2;
+}
+ .child-2 .content a{
+    color: #656567;
+}
+ .child-2 .content button{
+    width: 100%;
+    background-color: #FF9500;
+    color: white;
+    border: none;
+height: 49px;
+
+border-radius: 8px !important;
+padding-top: 14px;
+padding-right: 20px;
+padding-bottom: 14px;
+padding-left: 20px;
+transition: 0.5s;
+
+}
+ .child-2 .content button:hover{
+    background-color: #F7F7F8 ;
+    color: #FF9500;
+    border: 1px solid #FF9500;
+    font-weight: bold;
+}
+/*---------or------------*/
+ .child-2 .or{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 100%;
+    gap: 20px;
+    margin-top: 20px;
+}
+ .child-2 .or p{
+    width: 21px;
+    margin-top: -10px;
+    font-family: Inter;
+font-weight: 400;
+font-style: Regular;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: center;
+vertical-align: middle;
+color: #98989A;
+ font-family: Be Vietnam Pro;
+}
+ .child-2 .or span{
+    background-color: #262626;
+    width:48%;
+    height: 0px;
+    border: 1px solid #F1F1F3;
+}
+ .child-2 .login-by-google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+height: 56px;
+gap: 0px;
+background-color: #F7F7F8;
+border-radius: 8px !important;
+border: 1px solid #F1F1F3;
+padding-top: 16px;
+padding-right: 24px;
+padding-bottom: 16px;
+padding-left: 24px;
+
+}
+ .child-2 .login-by-google img{
+    width: 24px;
+    height: 24px;
+}
+ .child-2 .login-by-google a{
+    text-decoration: none;
+    color: #262626;
+font-weight: bold;
+font-style: Medium;
+font-size: 14px;
+line-height: 150%;
+letter-spacing: 0%;
+
+
+}
+ .child-2 .login-by-google a:hover{
+    text-decoration: underline;
+}
+
+
+ .child-2 .down{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 5px;    
+
+color: #262626;
+font-weight: 500;
+font-style: Regular;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+vertical-align: middle;
+
+}
+ .child-2 .down a{
+   margin-top: -15px;
+   color: #262626;
+   font-weight: bold;
+}
+ .child-2 .down img{
+    width: 12px;
+    height: 12px;
+    margin-left: 7px;
+    margin-top: -12px;
+}
+/*---------------sec-reset-pass---------------*/
+.sec-reset-pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f5f5f5;
+    
+}
+
+.reset-form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    color: #262626;
+}
+.reset-form h2 {
+    
+    margin-bottom: 20px;
+    text-align: center;
+}
+.reset-form .input-group {
+    margin-bottom: 15px;
+}
+.reset-form button {
+    width: 100%;
+}
+.reset-form .success-msg {
+    color: green;
+    margin-top: 10px;
+    text-align: left;
+    display: none;
+}
+.reset-form .error-msg{
+    color: red;
+    margin-top: 10px;
+    text-align: left;
+    display: none;
+}
+.error-msg{
+    color:red;
+    display:block;
+    margin-top:4px;
+}
+.error-msg-pass{
+        color:red;
+    display:block;
+    margin-top:-10px;
+}
+/*لالغاء العين في input password الاصلية*/
+input[type="password"]::-ms-reveal,
+input[type="password"]::-ms-clear {
+    display: none;
+}
+
+input[type="password"]::-webkit-textfield-decoration-container {
+    display: none;
+}
+
+.input-group-pass {
+    position: relative;
+}
+
+.input-group i.togglePass {
+    position: absolute;
+   
+    right: 15px;
+    top: 55px;
+    cursor: pointer;
+    font-size: 22px;
+
+    pointer-events: auto;
+}
+
+
+
+
+@media (min-width:320px) and (max-width:920px) {
+    .login-sec .perant,
+    .signUp-sec .perant{
+    flex-direction: column-reverse;
+
+}
+.login-sec .child-1,
+.signUp-sec .child-1{
+    width: 90%;
+      margin-top: 0px;
+  margin-bottom: 80px;
+}
+.login-sec .child-2,
+.signUp-sec .child-2{
+    width: 90%;
+}
+
+
+}
+
+@media (min-width:320px) and (max-width:700px) {
+
+    .child-1 .down .card{
+        height: 300px;
+    }
+}

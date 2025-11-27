@@ -1,0 +1,404 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Be Vietnam Pro;
+}
+@font-face {
+  font-family: 'Be Vietnam Pro';
+  src: url('../fonts/BeVietnamPro-Light.ttf') format('truetype');
+  font-weight: 400; /* Light */
+  font-style: normal;
+}
+
+/*----------------------src-11-----------------*/
+
+.sec-11{
+    display: flex;
+    text-align: left;
+    width: 100%;
+    gap: 100px;
+    left: 30px;
+    border-bottom: 1px solid #E4E4E7;
+    padding-right: 85px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    margin-top: 40px;
+}
+.sec-11 .content-left{
+    flex: 1;
+}
+.sec-11 .content-right{
+    flex: 1;
+}
+.sec-11 .content-left h2{
+    color: #262626;
+    font-size: 38px;
+    font-weight: bold;
+}
+.sec-11 .content-right p{
+    font-size: 16px;
+    letter-spacing: 0px;
+    margin-top: 35px;
+}
+/*----------------------src-12-----------------*/
+.sec-12{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    border-radius: 12px;
+    padding: 50px;
+    background-color: white;
+    margin: 60px;
+}
+
+.sec-12 .div-up{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 10px;
+}
+.sec-12 .div-up .up{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.sec-12 .div-up .up .up-right h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.sec-12 .div-up .up p{
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    letter-spacing: 0px;
+
+}
+
+
+.sec-12 .div-up .up-left button {
+    width: 120px;
+    height: 49px;
+    border-radius: 8px;
+    border: 1px solid #d4d4d6;
+    background-color: white;
+    transition: 0.5s;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.sec-12 .div-up .up-left button:hover {
+
+    
+    background-color: #FF9500;
+    border: none;
+    a{
+        color: white;
+    }
+}
+
+
+.sec-12 .div-up  .middel{
+    display: flex;
+    gap: 20px;
+}
+.sec-12 .div-up .middel div{
+    width: 386.6666564941406px;
+    height: 326px;
+    border-radius: 6px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec-12 .div-up .down{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.sec-12 .div-up .down .buttons{
+    display: flex;
+    gap: 8px;
+}
+.sec-12 .div-up .down button{
+    width: 124px;
+    height: 36px;
+    gap: 10px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid #F1F1F3;
+    color: #59595A;
+    font-size: 16;
+    font-weight: 400;
+    padding-top: 6px;
+    padding-right: 12px;
+    padding-bottom: 8px;
+    padding-left: 12px;
+ transition: 0.5s;
+}
+.sec-12 .div-up .down button:hover{
+     background-color: #FF9500;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+.sec-12 .div-up .down h2{
+    font-weight: 600;
+    font-style: Medium;
+    font-size: 18px;
+    color:#262626;
+    line-height: 100%;
+    letter-spacing: 0%;
+
+
+}
+.sec-12 .div-up .down h2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgb(247, 150, 6);
+}
+.sec-12 .div-down{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #F1F1F3;
+    border-radius: 10px;
+
+
+}
+.sec-12 .div-down .up{
+    
+    gap: 10px;
+    border-bottom: 1px solid #F1F1F3;
+    padding-top: 20px;
+    padding-right: 24px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+
+}
+.sec-12 .div-down h1{
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.sec-12 .div-down .down{
+    display: flex;
+    
+    border-radius: 12px;
+    gap: 40px;
+
+    padding-top: 24px;
+    padding-right: 40px;
+    padding-bottom: 24px;
+    padding-left: 40px;
+
+}
+
+.sec-12 .div-down .down div{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 160px;
+    
+    margin-top: -15px;
+    margin-bottom: 10px;
+    opacity: 1;
+
+}
+.sec-12 .div-down .down div:hover{
+    cursor: pointer;
+    h1{
+        text-shadow: 2px 2px 2px rgb(247, 150, 6);
+    }
+    p{
+        text-shadow: 2px 2px 2px rgb(247, 150, 6);
+    }
+    
+}
+.sec-12 .div-down .down h1{
+    font-family: Be Vietnam Pro;
+font-weight: 800;
+font-style: ExtraBold;
+font-size: 40px;
+line-height: 150%;
+letter-spacing: 0%;
+
+}
+.sec-12 .div-down .down p{
+    font-weight: 700;
+    font-style: Regular;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #333333;
+   
+;
+
+}
+.sec-12 .div-down .down span{
+    background-color: #262626;
+    height: 111.0000000000001px;
+    width: 0px;
+    border: 1px solid #F1F1F3;
+
+
+    
+
+}
+.sec-12 .div-down .down div h1{
+    color: #262626;
+    font-weight: bold;
+    font-style: ExtraBold;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+}
+
+.f-sec{
+    margin-bottom: 80px;
+}
+
+
+/*---------------------------------------*/
+@media (min-width:320px) and (max-width:767px){
+    .sec-11{
+    flex-direction: column;
+   
+}
+.sec-11 .content-left h2{
+    font-size: 28px;
+}
+.sec-11 .content-right p{
+    font-size: 14px;
+    margin-top: -80px;
+}
+.sec-12{
+    width: 90%;
+    margin: 0px;
+    margin: 20px auto;
+}
+.sec-12 .div-up .up{
+   flex-direction: column;
+    gap: 0px;
+}
+.sec-12 .div-up  .middel{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec-12 .div-up .middel div{
+    width: 336.6666564941406px;
+    height: 276px;
+}
+
+.sec-12 .div-up .down{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sec-12 .div-down .down{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+
+}
+.sec-12 .div-down .down p{
+   width: 90%;
+
+}
+.sec-12 .div-down .down div{
+    width: 300px;
+}
+.sec-12 .div-down .down span{
+    background-color: #262626;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #F1F1F3;
+}
+}
+
+@media (min-width:768px) and (max-width:1200px){
+    .sec-12 .div-up  .middel{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec-12 .div-up .down{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sec-12 .div-down .down{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+.sec-12 .div-down .down div{
+    flex-direction: row;
+    gap: 40px;
+    width: 300px;
+}
+.sec-12 .div-down .down div p{
+    margin-top: 20px;
+}
+.sec-12 .div-down .down span{
+    background-color: #262626;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #F1F1F3;
+
+
+    
+
+}
+
+}
+@media (min-width:1201px) and (max-width:1240px){
+
+.sec-12 .div-down .down{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+
+}
+.sec-12 .div-down .down div{
+    flex-direction: row;
+    gap: 40px;
+    width: 300px;
+}
+.sec-12 .div-down .down div p{
+    margin-top: 20px;
+}
+.sec-12 .div-down .down span{
+    background-color: #262626;
+    width: 100%;
+    height: 0px;
+    border: 1px solid #F1F1F3;
+
+
+    
+
+}
+}
