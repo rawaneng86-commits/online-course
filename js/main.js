@@ -1,4 +1,4 @@
-$(document).ready(function(){
+٩$(document).ready(function(){
 
     $('.button-load-out').on('click',function(){
     
@@ -258,7 +258,9 @@ $(document).ready(function(){
     
 });
 
-
+$(window).on('load', function () {
+    $('.fixed-secreen-home').fadeOut(500);
+});
 
 
 
