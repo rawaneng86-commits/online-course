@@ -1,4 +1,4 @@
-٩$(document).ready(function(){
+$(document).ready(function(){
 
     $('.button-load-out').on('click',function(){
     
@@ -255,11 +255,14 @@
         }
     });
 
-    
+
+});
 });
 
 $(window).on('load', function () {
-    $('.fixed-secreen-home').fadeOut(500);
+    setTimeout(function () {
+        $('.fixed-secreen-home').fadeOut(500);
+    }, 1000);
 });
 
 
