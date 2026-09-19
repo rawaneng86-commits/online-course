@@ -261,6 +261,4 @@ $(document).ready(function(){
 
 
 
-$(window).on('load',function(){
-    $('.fixed-secreen-home').delay(2000).fadeOut(2000);
-  })
+
